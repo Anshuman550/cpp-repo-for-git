@@ -33,6 +33,11 @@ void calling_function(){
     return;
 }
 
+bool compare(int a, int b){
+    if( b > a ) return true;
+    return false; 
+}
+
 int32_t main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
